@@ -1,0 +1,22 @@
+{
+  "name": "bxs-jumper",
+  "version": "1.0",
+  "description": "jump to bxs",
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_popup": "src/popup/index.html",
+    "default_icon": {
+      "16": "images/bxs_qr_code.png",
+      "32": "images/bxs_qr_code.png",
+      "48": "images/bxs_qr_code.png",
+      "128": "images/bxs_qr_code.png"
+    }
+  },
+  "icons": {
+    "16": "images/bxs_qr_code.png",
+    "32": "images/bxs_qr_code.png",
+    "48": "images/bxs_qr_code.png",
+    "128": "images/bxs_qr_code.png"
+  },
+  "manifest_version": 2
+}
